@@ -54,6 +54,7 @@ a {
     padding: 15px 0;
     border-bottom:.1rem solid rgba(255,255,255,.3);
     z-index: 1000;
+    overflow:hidden;
 }
 
 .navbar {
