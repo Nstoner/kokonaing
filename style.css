@@ -122,7 +122,7 @@ a {
     padding: 10px;
     position: absolute;
     top: 100%;
-    right: -100%;
+    left: -100%;
     background-color: var(--black);
 
     display: flex;
@@ -144,7 +144,7 @@ a {
 }
 
 .side-bar.active {
-    right: 0;
+    left: 0;
 }
 
 
@@ -561,7 +561,7 @@ a {
 @media (max-width: 674px) {
 
     .navbar {
-        overflow-x: hidden;
+        
     }
 
     .nav-links {

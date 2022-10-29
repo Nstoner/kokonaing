@@ -13,6 +13,14 @@ menuIcon.addEventListener("click", () => {
         line3Tag.classList.remove("rotateLine3");
         sideBar.classList.remove("active");
         menuIcon.classList.remove("isOpened");
+
+        window.onscroll = () => {
+            line1Tag.classList.remove("rotateLine1");
+            line2Tag.classList.remove("hideLine2");
+            line3Tag.classList.remove("rotateLine3");
+            sideBar.classList.remove("active");
+            menuIcon.classList.remove("isOpened");
+        }
     }else {
         line1Tag.classList.add("rotateLine1");
         line2Tag.classList.add("hideLine2");
