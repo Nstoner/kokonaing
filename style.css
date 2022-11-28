@@ -21,7 +21,6 @@
 body {
     background: var(--light-bg);
     overflow-x: hidden;
-    transition: all .4s linear;
 }
 
 a {
