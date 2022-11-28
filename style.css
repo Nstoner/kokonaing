@@ -16,6 +16,7 @@
     box-sizing: border-box;
     border: none;
     padding: none;
+    transition: all .2s linear;
 }
 
 body {
